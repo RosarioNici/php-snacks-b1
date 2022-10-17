@@ -14,7 +14,7 @@ $inPos = strpos($mail, '.', $necessaryPos) ;
 
 
 
-if(strlen($name) > 3 && $atPos > 0 && $dotPos > 0 && is_numeric($age)){
+if(strlen($name) > 3 && $necessaryPos > 0 && $inPos > 0 && is_numeric($age)){
     echo 'Accesso riuscito';
 }else{
     echo 'Accesso negato';
